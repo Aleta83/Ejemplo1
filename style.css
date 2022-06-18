@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: #eee;
+   font-family: 'Montserrat', sans-serif;  
+}
+.marco{
+    width: 750px;
+    height: 700px;
+    border: 1px solid #98c1d9;
+    margin: 150px auto;
+    background: -moz-linear-gradient(to right,  #c6edff 0%,#a3c6ff 100%); background: -webkit-linear-gradient(to right,  #c6edff 0%,#a3c6ff 100%); background: linear-gradient(to right,  #c6edff 0%,#a3c6ff 100%); ;
+    border-radius: 15px;
+    flex-direction: column;
+    display: flex;
+}
+
+.card{
+    width: 400px;
+    height: 600px;
+    border: 1px solid #ccc;
+    margin: 150px auto;
+    background-color: #fff;
+    border-radius: 15px;
+    flex-direction: column;
+    margin: auto;
+    
+}
+.parte-superior{
+    height: 230px;
+    background-image: url("musica.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.contend{
+    padding: 2px;
+    text-align: center;
+    border-radius top: 10px;
+    
+}
+.title{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.text{
+    margin-bottom: 20px;
+
+}
+
+.contenedor {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: solid 1px;
+    display: flex;
+    width: 370px;  
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.imagen{
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: cover;
+}
+.lista{
+    align-self: center;
+    font-size: medium;
+    margin-right: 80px;
+
+}
+a{
+    align-self: center;
+}
+.btn-superior{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.boton1{
+    border-radius: 10px;
+    border: solid orchid;
+    color: white;
+    background-color: orchid;
+    font-size: 20px;
+    width: 250px;
+    height: 40px;
+    text-align: center; 
+   
+}
+.btn-abajo{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.boton2{
+    color: blue;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+}
+@media only screen and (min-widht: 0px){
+    .imagenes{
+        grid-template-columns: auto;
+    }
+}
+
+@media only screen and (min-widht: 400px){
+    .imagenes{
+        grid-template-columns: auto;
+    }
+}
+
+@media only screen and (min-widht: 900px){
+    .imagenes{
+        grid-template-columns: auto;
+    }
+}
+
